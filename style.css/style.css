@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    p {
+        text-align: justify;
+      }
+    }
+.form-control {
+    width: 60%;
+}
+/* style hp*/
+body{
+    background-color: rgb(119, 71, 71);
+
+}
+
+
+
+body{
+
+ 
+
+    background-color: aqua;
+
+
+    font-family: 'calibri';
+
+
+    }
+
+
+
+
+
+    /* class selector */
+
+
+    .text-danger{
+
+
+        color: rgb(70, 206, 206);
+
+
+    }
+
+
+
+
+
+    .bg-success {
+
+
+        background-color: aliceblue;
+
+
+    }
+
+
+
+
+
+    .bg-primary{
+
+
+        background-color: blue;
+
+
+    }
+
+
+
+
+
+    .warning{
+
+
+        color: yellow;
+
+
+    }
+
+
+    .p-1{
+
+
+        padding: 10px;
+
+
+    }
+
+
+
+
+
+    .m-1{
+
+
+        margin: 10px;
+
+
+    }
+
+
+
+
+
+    .rounded {
+
+
+        border-radius: 20px;
+
+
+    }
+
+
+
+
+
+    a{
+
+
+        color: black;
+
+
+        text-decoration: none;
+
+
+    }
+
+
+
+
+
+    a:hover{
+
+
+        color: green;
+
+
+        background-color: white;
+
+
+        border-radius: 2px;
+
+
+        padding: 2px;
+
+
+    }
+
+
+
+
+
+    table{
+
+
+        width: 100%;
+
+
+        border: 1px solid black;
+
+
+        border-collapse: collapse ;
+
+
+        text-align: center;
+
+
+    }
+
+
+
+
+
+    input{
+
+
+        width: 100%;
+
+
+    }
+
+
+
+
+
+    select{
+
+
+        width: 100%;
+
+
+    }
+
+
+    .btn-primary{
+
+
+        margin-top: 100%;
+
+
+        background-color: blue;
+
+
+        padding-left: 20px;
+
+
+        padding-right: 20%;
+
+
+        color: white;
+
+
+        border-radius: 10px;
+
+
+    }
+
+
+
+
+
+    .btn-primary:hover{
+
+
+        background-color: green;
+
+
+    }

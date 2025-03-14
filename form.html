@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Online</title> 
+        <style>
+            body{
+            background-color: aqua;
+            font-family: 'calibri';
+            }
+            /* class selector */
+            .text-danger{
+                color: rgb(70, 206, 206);
+            }
+            .bg-success {
+                background-color: aliceblue;
+            }
+            .bg-primary{
+                background-color: blue;
+            }
+            .warning{
+                color: yellow;
+            } 
+        </style>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body><tr>
+        <h3> <a href="index.html">Main Information</a> | <a href="Manfaat.html">Manfaat</a> | <a href="Destination.html"> Destination</a> | 
+             <a href="kelas.html">Kelas</a> |<a href="jadwallatihan.html">jadwallatihan</a> | <a href="form.html">formulir</a></h3>
+    </tr> 
+        <h1> Silahkan mengisi Formulir Online untuk bergabung </h1>
+    </body>
+    <form action="proses.php" method="post" required class="form-control">
+        full name <br>
+        <input type="text" name="nama" id="nama" required class="form-control"> <br>
+        Email <br>
+        <input type="email" name="email" id="email" required class="form-control"> <br>
+        Alamat <br>
+        <input type="text" name="Alamat" id="Alamat" required class="form-control"> <br>
+        Alasan untuk Join <br>
+        <textarea name="pesan" id="pesan"required class="form-control"></textarea> <br>
+        <button type="submit">send</button>
+    </form>
+    </tr>
